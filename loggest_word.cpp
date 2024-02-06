@@ -19,7 +19,9 @@ string loggestWord(string sen){
       }
         abc+=sen[i];
   }
-  if(maxing.length() < abc.length())maxing=abc;
+  if(maxing.length() < abc.length()){
+      maxing=abc;
+  }
   return maxing;
 }
 int main() {
